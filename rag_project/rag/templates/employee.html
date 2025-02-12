@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Dashboard</title>
+</head>
+<body>
+    <h1>{{ role }}</h1>
+    <p>{{ message }}</p>
+    <h2>Tasks:</h2>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
